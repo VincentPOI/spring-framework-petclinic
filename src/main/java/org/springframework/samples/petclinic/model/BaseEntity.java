@@ -28,6 +28,7 @@ import javax.persistence.MappedSuperclass;
  */
 @MappedSuperclass
 public class BaseEntity {
+    class{;}//error on purpose to remove
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected Integer id;
